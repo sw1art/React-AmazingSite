@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --color-151515: #151515;
+  --color-242424: #242424;
+  --color-303030: #303030;
+  --color-c2b633: #c2b633;
+}
+body{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+form-control:focus{
+  box-shadow: none;
+  border-color: var(--color-c2b633);
+}
+.gap-5{
+  gap: 5px;
+}
+.gap-10{
+  gap: 10px;
+}
+.gap-15{
+  gap: 15px
+}
+/* HEADER */
+
+.header-top-strip{
+  background-color: var(--color-151515);
+  border-bottom: 1x solid var(--color-303030);
+}
+
+.header-upper{
+  background-color: var(--color-242424);
+}
+.header-upper .input-group-text{
+  background-color: var(--color-c2b633);
+}
+.header-upper-svg{
+  width: 35px;
+  height: 35px;
+}
+/* HEADER END */
