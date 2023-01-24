@@ -7,20 +7,23 @@
   --color-151515: #151515;
   --color-242424: #242424;
   --color-303030: #303030;
-  --color-c2b633: #c2b633;
+  --color-474747: #474747;
+  --color-fcf28c: #fcf28c;
+  --color-ffe920: #ffe920;
 }
 body{
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 a{
   text-decoration: none;
   display: inline-block;
 }
-form-control:focus{
-  box-shadow: none;
-  border-color: var(--color-c2b633);
+
+.main-color{
+  color: var(--color-fcf28c);
 }
+
 .gap-5{
   gap: 5px;
 }
@@ -30,21 +33,21 @@ form-control:focus{
 .gap-15{
   gap: 15px
 }
-/* HEADER */
-
-.header-top-strip{
-  background-color: var(--color-151515);
-  border-bottom: 1x solid var(--color-303030);
+.gap-20{
+  gap: 20px
+}
+.gap-25{
+  gap: 25px
+}
+.gap-30{
+  gap: 30px
 }
 
-.header-upper{
-  background-color: var(--color-242424);
+
+.hover-text-white:hover{
+  color: var(--color-ffe920) !important;
 }
-.header-upper .input-group-text{
-  background-color: var(--color-c2b633);
+
+.hover-svg-white:hover{
+  fill: var(--color-ffe920);
 }
-.header-upper-svg{
-  width: 35px;
-  height: 35px;
-}
-/* HEADER END */
