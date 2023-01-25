@@ -51,3 +51,16 @@ a{
 .hover-svg-white:hover{
   fill: var(--color-ffe920);
 }
+
+.input-group-text:hover{
+  background-color: var(--color-ffe920);
+  border: 1px solid var(--color-ffe920);
+}
+
+.
+
+.input-group-text {
+  background-color: var(--color-fcf28c);
+  border-radius: 10px;
+  border:none;
+}

@@ -14,6 +14,7 @@ const Header = () => {
             </div>
             <div className='col-6'>
               <p className='text-end text-white mb-0'>Телефон горячей линии:
+                <span> </span>
                 <a className='text-white' href='tel : +7900000000'>+7900000000</a>
               </p>
             </div>
@@ -30,10 +31,10 @@ const Header = () => {
               </h1>
             </div>
             <div className='col-4'>
-              <div class="input-group">
-                <input type="text" class="form-control py-3" placeholder="Поиск..."
+              <div className="input-group">
+                <input type="text" className="form-control py-2" placeholder="Поиск..."
                   aria-label="Поиск..." aria-describedby="button-addon2" />
-                <button className='input-group-text hover-background p-3'>
+                <button className='input-group-text hover-background p-2'>
                   <BsSearch className='fs-6' />
                 </button>
               </div>
@@ -95,10 +96,10 @@ const Header = () => {
                       <span className='me-5 d-inline-block p-3'>Каталог</span>
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                      <li><Link className="dropdown-item text-white" to="/">Action</Link></li>
-                      <li><Link className="dropdown-item text-white" to="/">Another action</Link></li>
-                      <li><Link className="dropdown-item text-white" to="/">Something else here</Link></li>
-                      <li><Link className="dropdown-item text-white" to="/">Separated link</Link></li>
+                      <li><Link className="dropdown-item text-white" to="/">Ноутбуки</Link></li>
+                      <li><Link className="dropdown-item text-white" to="/">Смартфоны</Link></li>
+                      <li><Link className="dropdown-item text-white" to="/">Клавиатуры</Link></li>
+                      <li><Link className="dropdown-item text-white" to="/">Аксессуары</Link></li>
                     </ul>
                   </div>
                 </div>

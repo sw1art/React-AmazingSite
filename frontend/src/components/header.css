@@ -7,15 +7,9 @@
     background-color: var(--color-242424);
 }
 
-.header-upper .input-group-text {
-    background-color: var(--color-fcf28c);
-    border-radius: 10px;
-    border:none;
-}
-
 .header-upper-svg {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     color: var(--color-fcf28c);
 }
 
@@ -38,10 +32,7 @@
     box-shadow: none;
     border: 1px solid var(--color-ffe920);;
   }
-.header-upper .input-group-text:hover{
-    background-color: var(--color-ffe920);
-    border: 1px solid var(--color-ffe920);
-  }
+
 
 /* HEADER BUTTON */
 .header-bottom{
