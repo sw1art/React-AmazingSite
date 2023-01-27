@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { Link, NavLink } from 'react-router-dom'
-import { BsSearch, BsTelegram } from 'react-icons/bs'
+import { BsFacebook, BsSearch, BsTelegram, BsWhatsapp } from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -50,7 +50,19 @@ const Footer = () => {
                 <text className='py-2 mb-1'>Email:</text>
                 <br/>
                 <a className='text-white hover-text-white py-2 mb-1' href='mailto: sw1art@gmail.com'>sw1art@gmail.com</a>
+                <div className='social-network-icons gap-30'>
+                  <a href='' className='fs-4'>
+                    <BsWhatsapp className='social-network-icon'></BsWhatsapp>
+                  </a>
+                  <a href='' className='fs-4'>
+                    <BsFacebook className='social-network-icon'></BsFacebook>
+                  </a>
+                  <a href='' className='fs-4'>
+                    <BsTelegram className='social-network-icon'></BsTelegram>
+                  </a>
+                </div>
               </div>
+
             </div>
             <div className='col-3'>
               <h5 className='mb-4'>Компания</h5>
