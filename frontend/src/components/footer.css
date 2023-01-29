@@ -20,21 +20,12 @@ hr {
 }
 
 
-/* .social-network-icon {
+.social-network-icon {
     height: 30px;
     width: 30px;
-} */
-/* Footer-bottom */
-/* .footer-bottom {
-    border-top: 1px solid var(--color-151515);
-} */
+    fill: var(--color-fcf28c);
+}
 
-
-/* Footer */
-
-
-/* Footer */
-/* Footer */
-
-/* Footer */
-/* Footer */
+.social-network-icon:hover {
+    fill: var(--color-ffe920);
+}

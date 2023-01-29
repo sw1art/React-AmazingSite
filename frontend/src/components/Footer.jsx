@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { Link, NavLink } from 'react-router-dom'
-import { BsFacebook, BsSearch, BsTelegram, BsWhatsapp } from 'react-icons/bs'
+import { BsFacebook, BsGithub, BsSearch, BsTelegram, BsTwitter, BsWhatsapp } from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -50,15 +50,21 @@ const Footer = () => {
                 <text className='py-2 mb-1'>Email:</text>
                 <br/>
                 <a className='text-white hover-text-white py-2 mb-1' href='mailto: sw1art@gmail.com'>sw1art@gmail.com</a>
-                <div className='social-network-icons gap-30'>
-                  <a href='' className='fs-4'>
-                    <BsWhatsapp className='social-network-icon'></BsWhatsapp>
+                <div className='social-network-icons d-flex align-items-center gap-15 mt-3'>
+                  <a href='/' className='fs-4'>
+                    <BsWhatsapp className='social-network-icon' alt='Whatsapp'></BsWhatsapp>
                   </a>
-                  <a href='' className='fs-4'>
-                    <BsFacebook className='social-network-icon'></BsFacebook>
+                  <a href='/' className='fs-4'>
+                    <BsFacebook className='social-network-icon' alt='Facebook'></BsFacebook>
                   </a>
-                  <a href='' className='fs-4'>
-                    <BsTelegram className='social-network-icon'></BsTelegram>
+                  <a href='/' className='fs-4'>
+                    <BsTelegram className='social-network-icon' alt='Telegram'></BsTelegram>
+                  </a>
+                  <a href='/' className='fs-4'>
+                    <BsGithub className='social-network-icon' alt='Github'></BsGithub>
+                  </a>
+                  <a href='/' className='fs-4'>
+                    <BsTwitter className='social-network-icon' alt='Twitter'></BsTwitter>
                   </a>
                 </div>
               </div>
