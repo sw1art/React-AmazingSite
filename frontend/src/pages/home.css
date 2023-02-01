@@ -2,13 +2,11 @@
     background-color: rgb(235, 235, 235);
 }
 
-/* .main-banner-content {
-    background-color: aquamarine;
-} */
 
 .img-field {
     height: 300px;
     width: auto;
+    display: block;
 }
 
 .main-banner-content {
@@ -62,11 +60,13 @@
 }
 
 /* SMALL */
-.small-banner-content {
+.main-r-banner-content {
     top: 10%;
-    left: 5%
+    right: 5%
 }
 
+
+/*
 .small-banner-content h4 {
     font-size: 16px;
     font-weight: 400;
@@ -103,11 +103,11 @@
     background-color: var(--color-474747);
     border: 1px solid var(--color-ffe920);
     color: var(--color-ffe920);
-}
+} */
 
-.small-banner-button-price p{
+/* .small-banner-button-price p{
     font-size: 18px;
     font-weight: 500;
     color: black;
     text-align: center;
-}
+} */
